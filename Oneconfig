@@ -1,0 +1,7 @@
+need_copy_file_list [
+    "ShellEngineer",
+    "aa.txt",
+    "ShellEngineer.xcodeproj"
+]
+
+deployment_version '9.0'
