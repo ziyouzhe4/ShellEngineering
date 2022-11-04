@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A4CFF19291530E7008536ED /* ShellEngineering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShellEngineering.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4CFF19291530E7008536ED /* ShellEngineer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShellEngineer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A4CFF1C291530E7008536ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A4CFF1D291530E7008536ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0A4CFF1F291530E7008536ED /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		0A4CFF10291530E7008536ED = {
 			isa = PBXGroup;
 			children = (
-				0A4CFF1B291530E7008536ED /* ShellEngineering */,
+				0A4CFF1B291530E7008536ED /* ShellEngineer */,
 				0A4CFF1A291530E7008536ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,12 +53,12 @@
 		0A4CFF1A291530E7008536ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A4CFF19291530E7008536ED /* ShellEngineering.app */,
+				0A4CFF19291530E7008536ED /* ShellEngineer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0A4CFF1B291530E7008536ED /* ShellEngineering */ = {
+		0A4CFF1B291530E7008536ED /* ShellEngineer */ = {
 			isa = PBXGroup;
 			children = (
 				0A4CFF1C291530E7008536ED /* AppDelegate.h */,
@@ -73,15 +73,15 @@
 				0A4CFF2D291530E8008536ED /* Info.plist */,
 				0A4CFF2E291530E8008536ED /* main.m */,
 			);
-			path = ShellEngineering;
+			path = ShellEngineer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0A4CFF18291530E7008536ED /* ShellEngineering */ = {
+		0A4CFF18291530E7008536ED /* ShellEngineer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A4CFF32291530E8008536ED /* Build configuration list for PBXNativeTarget "ShellEngineering" */;
+			buildConfigurationList = 0A4CFF32291530E8008536ED /* Build configuration list for PBXNativeTarget "ShellEngineer" */;
 			buildPhases = (
 				0A4CFF15291530E7008536ED /* Sources */,
 				0A4CFF16291530E7008536ED /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = ShellEngineering;
+			name = ShellEngineer;
 			productName = ShellEngineering;
-			productReference = 0A4CFF19291530E7008536ED /* ShellEngineering.app */;
+			productReference = 0A4CFF19291530E7008536ED /* ShellEngineer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0A4CFF14291530E7008536ED /* Build configuration list for PBXProject "ShellEngineering" */;
+			buildConfigurationList = 0A4CFF14291530E7008536ED /* Build configuration list for PBXProject "ShellEngineer" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A4CFF18291530E7008536ED /* ShellEngineering */,
+				0A4CFF18291530E7008536ED /* ShellEngineer */,
 			);
 		};
 /* End PBXProject section */
@@ -296,6 +296,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShellEngineering/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShellEngineer;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -306,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.didi.shell.ShellEngineering;
+				PRODUCT_BUNDLE_IDENTIFIER = com.didi.shell.ShellEngineer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,6 +323,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShellEngineering/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShellEngineer;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,7 +334,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.didi.shell.ShellEngineering;
+				PRODUCT_BUNDLE_IDENTIFIER = com.didi.shell.ShellEngineer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -342,7 +344,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A4CFF14291530E7008536ED /* Build configuration list for PBXProject "ShellEngineering" */ = {
+		0A4CFF14291530E7008536ED /* Build configuration list for PBXProject "ShellEngineer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A4CFF30291530E8008536ED /* Debug */,
@@ -351,7 +353,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A4CFF32291530E8008536ED /* Build configuration list for PBXNativeTarget "ShellEngineering" */ = {
+		0A4CFF32291530E8008536ED /* Build configuration list for PBXNativeTarget "ShellEngineer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A4CFF33291530E8008536ED /* Debug */,
