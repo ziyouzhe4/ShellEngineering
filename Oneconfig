@@ -1,0 +1,10 @@
+need_copy_file_list [
+    "ShellEngineer",
+    "ShellEngineer.xcworkspace",
+    "ShellEngineer.xcodeproj",
+    "Pods",
+    "Podfile",
+    "Podfile.lock"
+]
+
+deployment_version '9.0'
